@@ -1,0 +1,198 @@
+/* 공통 폰트 및 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* 헤더 스타일 */
+  .header {
+    background: linear-gradient(90deg, #a737f6, #d436c7);
+    padding: 20px 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f8e1ff;
+  }
+  
+  /* 홈 섹션 */
+  
+  .profile-img {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #b430f5;
+  }
+  
+  .home-description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* 어바웃 섹션 */
+  .about {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-profile,
+  .about-education,
+  .about-skills,
+  .about-activities {
+    margin-bottom: 30px;
+  }
+  
+  .about-profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .about-profile h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .about-skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-skills li {
+    display: inline-block;
+    background-color: #eee;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  
+  /* 마이 웍스 섹션 */
+  .my-works {
+    padding: 60px 20px;
+  }
+  
+  .my-works h1 {
+    margin-bottom: 30px;
+  }
+  
+  .my-works img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* 연락 폼 */
+  .contact {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+  }
+  
+  .contact-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  
+  .purple {
+    color: #b430f5;
+  }
+  
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .input-name {
+    width: 100%;
+  }
+  
+  .input-subject {
+    width: 100%;
+  }
+  
+
+  form table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  form table td {
+    padding: 0 15px 20px 15px;
+    vertical-align: top;
+  }
+  
+  button {
+    background-color: #b430f5;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #9224c4;
+  }
+
+  

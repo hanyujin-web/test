@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YUJIN - Portfolio</title>
+    <link rel="stylesheet" href="intro.css" />
+    <!-- 구글 폰트 사전 연결 (성능 최적화용) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- 실제 폰트 불러오기 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 상단 헤더 -->
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">YUJIN</div>
+        <ul class="nav-links">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">MY WORKS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 홈 섹션 -->
+    <section id="home" class="home">
+      <img src="images/emoji.png" alt="YUJIN emoji" class="profile-img" />
+
+      <h1 class="home-title">
+        Hi there, I am <span class="highlight">YUJIN</span>
+      </h1>
+
+      <p class="home-description">
+        I am into Front-End and WEB Design.<br />
+        디자이너에서 프론트엔드 개발자로 전환을 준비 중이에요<br />
+        웹디자이너 2년차 재직 중입니다.
+      </p>
+    </section>
+
+    <!-- 어바웃 섹션 -->
+    <section id="about" class="about">
+      <h1>About Me</h1>
+
+      <!-- 어바웃_프로필 -->
+      <div class="about-profile">
+        <img src="images/profile.jpg" alt="YUJIN" width="150" />
+        <h2>Yujin Han</h2>
+        <p>010-0000-0000</p>
+        <p>gksdbwls0226@naver.com</p>
+        <p>
+          #design #patience #tenacity <br />
+          #keep thinking #constant growth
+        </p>
+      </div>
+
+      <!-- 어바웃_학력 -->
+      <div class="about-education">
+        <h3>Education</h3>
+        <p>000 University</p>
+        <p>Visual Communication Design</p>
+        <p>2018~2023</p>
+      </div>
+
+      <!-- 어바웃_기술 -->
+      <div class="about-skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Figma</li>
+          <li>Illustrator</li>
+          <li>Photoshop</li>
+          <li>After Effects</li>
+          <li>Premiere Pro</li>
+        </ul>
+      </div>
+
+      <!-- 어바웃_활동 -->
+      <div class="about-activities">
+        <h3>Activities</h3>
+        <p>웹디자인</p>
+        <p>2024년 리액트 스터디 completion</p>
+      </div>
+    </section>
+
+    <!--마이 웍스 섹션 -->
+    <section id="works" class="my-works">
+      <h1>MY WORKS</h1>
+      <img src="images/mw1.png" alt="Image 1" />
+      <img src="images/mw2.png" alt="Image 2" />
+      <img src="images/mw3.png" alt="Image 3" />
+    </section>
+
+    <!--컨택 섹션 -->
+    <section id="contact" class="contact">
+      <h1 class="contact-title">
+        Send me a
+        <strong class="bold"><span class="purple">message</span></strong>
+        , I will be in touch with you shortly
+      </h1>
+      <!-- 입력 폼 시작 -->
+      <form action="#" method="post">
+        <table>
+          <tr>
+            <td>
+              <label for="name">Name</label><br />
+              <input type="text" id="name" name="name" />
+            </td>
+            <td>
+              <label for="subject">Subject</label><br />
+              <input type="text" id="subject" name="subject" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" />
+            </td>
+            <td>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label for="message">Message</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="30"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <!-- 전송 버튼 -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+</html>
